@@ -38,7 +38,7 @@ export const LoginPage = () => {
   const handleClickPassW = () => setShowPassW(!showPassW);
 
   return (
-      <Center minHeight="100vh">
+      <Center minHeight="90vh">
         <Card m={"auto"} w={"100%"} maxW={"500px"} p={4} mx={{ base: "8px", md: "0px" }} my={{ base: "10px", md: "0px" }} alignItems={"center"} justifyContent={"center"}>
           <CardHeader><Heading fontSize={"2xl"}>Login to your account</Heading></CardHeader>
 
