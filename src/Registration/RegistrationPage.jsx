@@ -1,6 +1,7 @@
 import {Box,  Button,  Card, CardBody, CardFooter, CardHeader, Center, Container, Flex, Spacer, FormControl,
   FormLabel, Heading, Image, Input, InputGroup, InputRightElement, Link, Stack, useToast,} from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
+import React from "react";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import {validationSchemaRegistration} from "./components/ValidationSchemaRegistration.jsx"
