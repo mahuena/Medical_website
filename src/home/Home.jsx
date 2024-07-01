@@ -8,7 +8,7 @@ export const Home = () => {
     <>
       <div className="flex">
           <SideBar />
-          <div className="">
+          <div className="w-full">
               <HeaderWrapper />
               <ModulesContainer />
           </div>
