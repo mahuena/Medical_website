@@ -1,6 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import { LoginPage } from './Login/LoginPage.jsx'
-import {Home} from './Home.jsx'
+import {Home} from './home/Home.jsx'
 import {RegistrationPage} from './Registration/RegistrationPage.jsx'
 import { ChakraProvider } from '@chakra-ui/react'
 function App() {
@@ -9,9 +9,9 @@ function App() {
       <ChakraProvider>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/loginPage" element={<LoginPage />} />
+                    <Route path="/" element={<LoginPage />} />
                     <Route path="/registrationPage" element={<RegistrationPage />} />
+                    <Route path="/home" element={<Home />} />
                 </Routes>
             </BrowserRouter>
       </ChakraProvider>
