@@ -15,7 +15,7 @@ export const RegistrationPage = () => {
     try {
       await new Promise(resolve => setTimeout(resolve, 1000));
       console.log(values);
-      navigate("/jobs/");
+      navigate("/home");
       toast({
         description: "Registration successful",
         status: "success",

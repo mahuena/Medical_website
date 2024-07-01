@@ -13,10 +13,9 @@ export const LoginPage = () => {
 
   const handleSubmit = async (values, { setSubmitting }) => {
     try {
-      // Simulate an async API call
       await new Promise(resolve => setTimeout(resolve, 1000));
       console.log(values);
-      navigate("/");
+      navigate("/home");
       toast({
         description: "Login successful",
         status: "success",
